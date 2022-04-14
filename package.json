@@ -1,0 +1,13 @@
+{
+  "name": "sshtun-app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "axios": "latest",
+    "ssh2": "latest",
+    "koa2": "latest",
+    "node-ssh": "latest"
+  }
+}

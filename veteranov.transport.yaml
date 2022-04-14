@@ -1,0 +1,29 @@
+
+# Окно оператора (OW)
+# un: unique number (УНО)
+# sn: unique number (УНО)
+title: "Комитет по транспорту"
+address: "Ветеранов проспект, 131"
+devices:
+  - OW
+   pc: 
+    identify: 
+      un: '000-000000'
+      sn: '123456'
+      in: '1234-234'
+
+  mfp: 
+    title: "Xerox 3389"
+    config: ""
+
+
+server-room:
+  - transport-gateway: "192.168.4.254"
+  - transport-configs: 
+    - network: "/config/network/transport/veteranov.config"
+
+route:
+  - soft:
+  - drweb:
+
+  
